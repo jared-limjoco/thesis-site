@@ -1,0 +1,4 @@
+.h3 {
+  @apply text-gray-800;
+  @apply text-2xl lg:text-3xl xl:text-4xl;
+}

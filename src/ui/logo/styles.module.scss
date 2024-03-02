@@ -1,0 +1,29 @@
+.logo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  cursor: pointer;
+  h1 {
+    color: black;
+    text-decoration: none !important;
+  }
+  svg {
+    margin-top: 2.5px;
+  }
+
+  &:hover {
+    .divider {
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+  }
+}
+
+.divider {
+  background: var(--c-accent);
+  width: 3px;
+  height: 100%;
+  margin: 0.6rem;
+  transition: all ease-in-out 0.2s;
+}

@@ -1,0 +1,4 @@
+.button {
+  @apply bg-transparent bg-gray-800 hover:text-gray-800 font-semibold text-white hover:bg-white py-2 px-4 border border-black rounded;
+  @apply transition-colors duration-500 ease-in-out;
+}

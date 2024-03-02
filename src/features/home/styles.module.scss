@@ -1,0 +1,54 @@
+.card {
+  width: 300px;
+  margin: 1rem;
+  margin-left: -2rem;
+  text-align: justify;
+  h3 {
+    :first-child {
+      background-color: #ef4444;
+      padding: 0.3rem;
+      margin-right: 0.4rem;
+      color: white;
+      border-radius: 10px;
+    }
+    :nth-child(2) {
+      text-decoration: underline;
+    }
+    margin-bottom: 0.5vw;
+  }
+  p {
+    padding: 0.5rem;
+    margin-left: 2.8rem;
+    text-align: left;
+    line-height: 1.2rem;
+  }
+}
+
+.prize {
+  background: #ef4444;
+  width: 280px;
+  height: 200px;
+  padding: 2rem;
+  border-radius: 10px;
+  margin: 1rem;
+  margin-top: 0rem;
+  h3 {
+    color: white;
+    margin-bottom: 0.5rem;
+  }
+  p {
+    display: block;
+    color: white;
+    span {
+      background: var(--c-accent);
+      color: black;
+      padding: 2px 5px;
+    }
+  }
+}
+
+.infoPrize {
+  letter-spacing: 0rem;
+  line-height: 1rem;
+  margin-bottom: 1rem;
+}

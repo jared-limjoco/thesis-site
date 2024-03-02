@@ -1,0 +1,21 @@
+.contentItem {
+  /* transform-origin: top; */
+  /* transition: transform 0.3s ease; */
+  transition: all 0.4s ease-in-out;
+  /* transition: opacity 0.2s ease-in-out; */
+  /* transition-delay: max-height 0.3s; */
+}
+
+.contentItemOpen {
+  @apply pl-8 pr-8 pb-5 text-gray-900;
+  /* transform: scaleY(1); */
+  max-height: 1000px;
+}
+
+.contentItemClose {
+  @apply relative opacity-0 z-0;
+  max-height: 0;
+  /* transform: scaleY(0); */
+}
+
+/* @apply transition-all ease-in duration-700; */

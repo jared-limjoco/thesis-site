@@ -1,0 +1,35 @@
+.link {
+  cursor: pointer;
+  display: relative;
+}
+.link::after {
+  content: " ";
+  display: block;
+  height: 2px;
+  background: var(--c-primary);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0%;
+}
+.link:hover::after {
+  width: 100%;
+}
+.link > span {
+  /* text-shadow: 0px 5px 10px #0b0b0baa; */
+}
+
+.active {
+  cursor: pointer;
+  display: relative;
+}
+.active::after {
+  /* background: none repeat scroll 0 0 transparent;
+  bottom: 0; */
+  content: " ";
+  display: block;
+  height: 2px;
+  left: 0;
+  /* position: absolute; */
+  background: var(--c-accent);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 100%;
+}

@@ -1,0 +1,4 @@
+.h2 {
+  @apply text-gray-800;
+  @apply text-3xl lg:text-4xl xl:text-5xl;
+}
