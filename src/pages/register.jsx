@@ -38,14 +38,7 @@ export default function register({ providers, csrfToken }) {
     const city = e.currentTarget.city.value;
     const age = e.currentTarget.age.value;
     const commuteFrequency = e.currentTarget.commuteFrequency.value;
-    const mobilityAids = [];
     const referred = e.currentTarget.referred.value;
-
-    for (let i = 0; i < e.currentTarget.mobilityAid.length; i++) {
-      if (e.currentTarget.mobilityAid[i].checked) {
-        mobilityAids.push(e.currentTarget.mobilityAid[i].value);
-      }
-    }
 
     const body = {
       username,
@@ -55,7 +48,6 @@ export default function register({ providers, csrfToken }) {
       city,
       age,
       commuteFrequency,
-      mobilityAids,
       referred,
     };
 
@@ -199,63 +191,8 @@ export default function register({ providers, csrfToken }) {
             required
           />
           <fieldset className="border-0 mb-4">
-            <legend className="block mb-2 font-bold">
-              Do you use the following mobility aids? If not, do not check any
-              of the boxes.
-            </legend>
-            <label className="block text-gray-700 font-bold mb-2">
-              <input
-                className="mr-2 leading-tight"
-                type="checkbox"
-                value="canes"
-                name="mobilityAid"
-              />
-              <span className="text-sm">Canes</span>
-            </label>
-            <label className="block text-gray-700 font-bold mb-2">
-              <input
-                className="mr-2 leading-tight"
-                type="checkbox"
-                value="crutches"
-                name="mobilityAid"
-              />
-              <span className="text-sm">Crutches</span>
-            </label>
-            <label className="block text-gray-700 font-bold mb-2">
-              <input
-                className="mr-2 leading-tight"
-                type="checkbox"
-                value="walkers"
-                name="mobilityAid"
-              />
-              <span className="text-sm">Walkers</span>
-            </label>
-            <label className="block text-gray-700 font-bold mb-2">
-              <input
-                className="mr-2 leading-tight"
-                type="checkbox"
-                value="mobility-scooters"
-                name="mobilityAid"
-              />
-              <span className="text-sm">Mobility Scooters</span>
-            </label>
-            <label className="block text-gray-700 font-bold mb-2">
-              <input
-                className="mr-2 leading-tight"
-                type="checkbox"
-                value="guide-dogs"
-                name="mobilityAid"
-              />
-              <span className="text-sm">Guide dogs</span>
-            </label>
-            <div className="text-xs text-gray-600">
-              Please check the boxes of the mobility aids that you use.
-            </div>
-          </fieldset>
-          <fieldset className="border-0 mb-4">
             <legend className="block text-gray-700 mb-2 font-bold">
-              How often do you commute in a public utility vehicle?
-              (Pre-pandemic)
+              How often do you walk in your usual commute?
             </legend>
             <label className="block text-gray-700 font-bold mb-2">
               <input

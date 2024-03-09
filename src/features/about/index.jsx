@@ -24,8 +24,8 @@ export default function AboutSection() {
         head="Unwalkable Cities"
         img="theWhy.jpg"
         desc="Many Filipinos living in urban areas rely heavily on roads and
-                sidewalks to accomplish their daily routines. Given that only 31
-                percent% of the nation’s households owns at least one car, quality
+                sidewalks to accomplish their daily routines. Given that only 31%
+                of the nation’s households owns at least one car, quality
                 public infrastructure must be made available and accessible to all
                 people. However, this is not always the case. Hundreds if not thousands of sidewalks
                 are either broken, narrow, unsafe, or uncomfortable to work with. With
@@ -38,18 +38,20 @@ export default function AboutSection() {
         head="Rating Sidewalk Accessibility"
         img="theHow.jpg"
         desc="Using your annotations as training data, we hope to train a machine
-        learning model capable of assessing sidewalk assessibility. We use object detection and object segmentation models to assess
-        the preliminary assessibility score of a sidewalk."
+        learning model capable of assessing sidewalk assessibility. We use object detection models 
+        to identify sidewalk obstructions found on sidewalks. You will also be able to append 
+        additional annotations when necessary."
         active={slideState === 1}
       />
       <AboutSlide
         title="The Who"
         head="Meet The Team"
         img="theWho.jpg"
-        desc="We are a group of Computer Science majors from the College of
+        desc='We are a group of Computer Science majors from the College of
         Computer Studies, De La Salle University, and we are currently
         working on building this sidewalk rating and labeling platform for our undergraduate
-        thesis. "
+        thesis entitled "Hey! I’m Walkin’ Here: Enhancing Urban Planning Through Remote Sensing 
+        for Monitoring Sidewalk Accessibility Challenges Faced by Abled Individuals.".'
         active={slideState === 2}
       />
       <div className="z-10 flex justify-end max-w-5xl mx-auto mt-10 relative mb-12">

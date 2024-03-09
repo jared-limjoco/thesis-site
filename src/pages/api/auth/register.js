@@ -13,7 +13,6 @@ const handler = async (req, res) => {
       email,
       city,
       age,
-      mobilityAids,
       commuteFrequency,
       referred,
     } = req.body;
@@ -47,7 +46,6 @@ const handler = async (req, res) => {
           email,
           city,
           age,
-          mobilityAids,
           commuteFrequency,
           activities,
           totalAnnotations,

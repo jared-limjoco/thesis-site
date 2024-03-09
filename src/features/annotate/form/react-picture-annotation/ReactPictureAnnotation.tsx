@@ -381,14 +381,12 @@ export default class ReactPictureAnnotation extends React.Component<IReactPictur
             {" "}or {" "}
             <span className="font-bold">
               the sidewalk on the image is completely
-              unsafe and inaccessible for both abled pedestrians and persons with
-              physical disabilities (PWPDs).{" "}
+              unsafe and inaccessible for abled pedestrians.{" "}
             </span>
             On the other hand, a score of 10
             means that {" "}
             <span className="font-bold">
-              the sidewalk is safe and accessible for
-              both abled pedestrians and PWPDs.{" "}
+              the sidewalk is safe and accessible for abled pedestrians.{" "}
             </span>
 
           </P>
@@ -432,7 +430,7 @@ export default class ReactPictureAnnotation extends React.Component<IReactPictur
             </div>
             <div className="slider-description">
               <p className="text-xl">Dangerous and inaccessible</p>
-              <p className="text-xl">Safe and accessible even for PWD&apos;s</p>
+              <p className="text-xl">Safe and accessible for abled pedestrians</p>
             </div>
           </div>
           {/* Radio Form */}

@@ -19,10 +19,11 @@ export default function Index() {
                         protect the data you provide to us when you visit and use Atlas. </P>
                     <br />
                     <H3 className="mb-2"> Overview</H3>
-                    <P> Greetings! We are Nicolas Sy, Rafael Topacio, Lynux Ansay and Henric Tay. We are currently working on
-                        our undergraduate thesis titled &quot;Using Remote Sensing to track Sidewalk Accessibility Issues to improve Urban Planning&quot;. In this
-                        study, we want to determine the accessibility of sidewalks by giving them scores based on a certain criteria. With this, we can map
-                        out the accessibility of sidewalks in the Philippines and allow for evidence-based solutions and policies in the future. </P>
+                    <P> Greetings! We are Donnielle Andres, Joshua Ejercito, Jared Limjoco, and Rijan Opalla. We are currently working on
+                        our undergraduate thesis titled &quot;Hey! I’m Walkin’ Here: Enhancing Urban Planning Through Remote Sensing for 
+                        Monitoring Sidewalk Accessibility Challenges Faced by Abled Individuals.&quot;. In this study, we want to determine 
+                        the accessibility of sidewalks by giving them scores based on a certain criteria. With this, we can map out the 
+                        accessibility of sidewalks in the Philippines and allow for evidence-based solutions and policies in the future. </P>
                     <br />
                     <P> As of the moment, we are in the process of annotating obstructions found in images of sidewalks. These labels will be used to
                         re-train a computer vision model to automatically detect obstructions in the future. In order to successfully re-train the computer
@@ -37,8 +38,7 @@ export default function Index() {
                         <P> •	Password </P>
                         <P> •	City of Residence </P>
                         <P> •	Age </P>
-                        <P> •	Usage of mobility aids </P>
-                        <P> •	Frequency of commuting in a public utility vehicle </P>
+                        <P> •	Frequency of walking during yoru usual commute</P>
                     </div>
                     <br />
                     <P> After registering for annotation task, you may continue on to annotate street view images in our website.

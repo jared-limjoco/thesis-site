@@ -39,10 +39,10 @@ export default function Raffle() {
           <div className={styles.prize}>
             <H3>Raffle Prize</H3>
             <P className={styles.infoPrize}>
-              Twenty annotators will have a change to win our raffle prize.
+              Fifteen lucky annotators will have a chance to win our raffle prize.
             </P>
-            <P>
-              PHP 100 each
+            <P className="font-bold">
+            PHP 100.00 each
             </P>
           </div>
         </div>

@@ -34,23 +34,18 @@ const DefaultInputSection = ({
             Select your option
           </option>
           <option value="bench">Bench</option>
-          <option value="bicycle">Bicycle</option>
           <option value="car">Car</option>
           <option value="construction_materials">Construction Materials</option>
-          <option value="curb_ramp">Curb Ramp</option>
           <option value="cracked_pavement">Cracked Pavement</option>
-          <option value="fire_hydrant">Fire Hydrant</option>
+          <option value="garbage">Garbage</option>
           <option value="lamp_post">Lamp Post</option>
           <option value="motorcycle">Motorcycle</option>
-          <option value="parking_meter">Parking Meter</option>
-          <option value="stop_sign">Stop Sign</option>
+          <option value="potted_plant">Potted Plant</option>
           <option value="street_sign">Street Sign</option>
-          <option value="street_vendor_stand">Street Vendor Stand</option>
-          <option value="traffic_light">Traffic Light</option>
+          <option value="street_vendor_cart">Street Vendor Cart</option>
           <option value="tree">Tree</option>
           <option value="tricycle">Tricycle</option>
           <option value="utility_post">Utility Post</option>
-          <option value="others">Others</option>
         </select>
         <a
           className="rp-default-input-section_select yes"
@@ -120,32 +115,24 @@ const translateValue = (value) => {
   switch (value) {
     case "bench":
       return "Bench";
-    case "bicycle":
-      return "Bicycle";
     case "car":
       return "Car";
     case "construction_materials":
       return "Construction Materials";
-    case "curb_ramp":
-      return "Curb Ramp";
     case "cracked_pavement":
       return "Cracked Pavement";
-    case "fire_hydrant":
-      return "Fire Hydrant";
+    case "garbage":
+      return "Garbage";
     case "lamp_post":
       return "Lamp Post";
     case "motorcycle":
       return "Motorcycle";
-    case "parking_meter":
-      return "Parking Meter";
-    case "stop_sign":
-      return "Stop Sign";
+    case "potted_plant":
+      return "Potted Plant";
     case "street_sign":
       return "Street Sign";
-    case "street_vendor_stand":
-      return "Street Vendor Stand";
-    case "traffic_light":
-      return "Traffic Light";
+    case "street_vendor_cart":
+      return "Street Vendor Cart";
     case "tree":
       return "Tree";
     case "tricycle":
