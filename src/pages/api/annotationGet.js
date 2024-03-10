@@ -7,7 +7,7 @@ const handler = async (req, res) => {
 
     const imgRecords = await db
       .collection("Image")
-      .aggregate([{ $sample: { size: annotationTotalCount } }])
+      .find().limit(annotationTotalCount)
       .toArray();
 
     res.json({
