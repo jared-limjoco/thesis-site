@@ -7,7 +7,11 @@ const handler = async (req, res) => {
 
     const imgRecords = await db
       .collection("Image")
-      .find().limit(annotationTotalCount)
+      .aggregate([
+        { $addFields: { rand: { $rand: {} } } },
+        { $sort: { rand: 1 } },
+        { $limit: annotationTotalCount }
+      ])
       .toArray();
 
     res.json({
