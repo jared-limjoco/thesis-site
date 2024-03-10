@@ -543,6 +543,11 @@ export default class ReactPictureAnnotation extends React.Component<IReactPictur
       (element) => element.editable
     );
 
+    if (this.state.pavementType === "") {
+      alert("Please select the surface type of the sidewalk.");
+      return;
+    }
+
     const body = {
       username: username,
       imageID: this.props.imageID,

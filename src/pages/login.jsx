@@ -89,7 +89,7 @@ export default function login({ providers, csrfToken }) {
         <div className="flex justify-center w-10/12 sm:w-8/12 md:w-6/12 lg:w-5/12 xl:w-4/12">
           <p className="font-semibold text-gray-600 text-sm">
             If you&apos;re experiencing problems logging in to your account
-            please contact us at: wethestreetsdlsu@gmail.com
+            please contact us at: sidewalk.thesis@gmail.com
           </p>
         </div>
       </section>
