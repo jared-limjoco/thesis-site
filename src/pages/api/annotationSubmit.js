@@ -9,6 +9,7 @@ const handler = async (req, res) => {
     const date = new Date();
     const {
       imageID,
+      city,
       username,
       accessibilityRating,
       pavementType,
@@ -22,6 +23,7 @@ const handler = async (req, res) => {
         date,
         username,
         imageID,
+        city,
         accessibilityRating,
         pavementType,
         selectedObjectsID,

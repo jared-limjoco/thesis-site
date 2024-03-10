@@ -32,6 +32,7 @@ interface IReactPictureAnnotationProps {
   defaultAnnotationSize?: number[];
   username: String;
   imageID: String;
+  city: String;
   currentAnnotationCount: number;
   inputElement: (
     value: string,
@@ -304,6 +305,7 @@ export default class ReactPictureAnnotation extends React.Component<IReactPictur
     const body = {
       username: username,
       imageID: this.props.imageID,
+      city: this.props.city,
       accessibilityRating: this.state.sliderValue,
       pavementType: this.state.pavementType,
       selectedObjectsID: selectedObjectsID,

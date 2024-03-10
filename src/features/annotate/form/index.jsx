@@ -36,7 +36,8 @@ export default function AnnotateForm({ data, current, total }) {
         width={640 * 1.5}
         height={400 * 1.5}
         annotationData={data.annotationList}
-        imageID={data._id}
+        imageID={data.imageID}
+        city={data.city}
         currentAnnotationCount={current}
         username={session.user.username}
       />

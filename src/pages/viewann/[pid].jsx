@@ -20,6 +20,7 @@ export default function ViewAnnotation({ data }) {
         detectedObjects={data.detectedObjects}
         url={data.url}
         id={data.imageID}
+        city={data.city}
       ></AnnotateView>
     </Page>
   );

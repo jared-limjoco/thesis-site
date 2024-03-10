@@ -29,6 +29,7 @@ export default function AnnotateForm({
         height={400 * 1.5}
         annotationData={annotObjects}
         imageID={id}
+        city={city}
         currentAnnotationCount={0}
         username={"test"}
       />
