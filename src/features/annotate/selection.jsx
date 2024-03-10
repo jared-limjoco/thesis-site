@@ -42,14 +42,6 @@ export default function AnnotationSessionSelection() {
             <div className="px-4 mt-4">
               <button
                 className="bg-red-600 text-white py-5 px-5 transition-all duration-300 ease-in-out rounded-md border-black hover:text-white hover:bg-gray-800 text-5xl shadow-lg"
-                onClick={() => setAnnotationSession(5)}
-              >
-                05
-              </button>
-            </div>
-            <div className="px-4 mt-4">
-              <button
-                className="bg-red-600 text-white py-5 px-5 transition-all duration-300 ease-in-out rounded-md border-black hover:text-white hover:bg-gray-800 text-5xl shadow-lg"
                 onClick={() => setAnnotationSession(10)}
               >
                 10
@@ -58,17 +50,25 @@ export default function AnnotationSessionSelection() {
             <div className="px-4 mt-4">
               <button
                 className="bg-red-600 text-white py-5 px-5 transition-all duration-300 ease-in-out rounded-md border-black hover:text-white hover:bg-gray-800 text-5xl shadow-lg"
-                onClick={() => setAnnotationSession(15)}
+                onClick={() => setAnnotationSession(20)}
               >
-                15
+                20
               </button>
             </div>
             <div className="px-4 mt-4">
               <button
                 className="bg-red-600 text-white py-5 px-5 transition-all duration-300 ease-in-out rounded-md border-black hover:text-white hover:bg-gray-800 text-5xl shadow-lg"
-                onClick={() => setAnnotationSession(20)}
+                onClick={() => setAnnotationSession(30)}
               >
-                20
+                30
+              </button>
+            </div>
+            <div className="px-4 mt-4">
+              <button
+                className="bg-red-600 text-white py-5 px-5 transition-all duration-300 ease-in-out rounded-md border-black hover:text-white hover:bg-gray-800 text-5xl shadow-lg"
+                onClick={() => setAnnotationSession(50)}
+              >
+                50
               </button>
             </div>
           </div>
