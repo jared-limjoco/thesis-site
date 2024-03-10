@@ -19,7 +19,7 @@ const handler = async (req, res) => {
 
     const data = {
       imageID: imageID,
-      city: city,
+      city: imageRecord.city,
       url: imageRecord.url,
       selectedObjects: annotationRecord.selectedObjectsID,
       detectedObjects: imageRecord.annotationList,
