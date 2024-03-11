@@ -94,13 +94,12 @@ export default function HelpDirectory() {
             <P>
               {" "}
               2. An accessibility rating of 1 means that the sidewalk is
-              completely <b> unsafe and inaccessible </b> for both abled
-              pedestrians and PWPDs.{" "}
+              completely <b> unsafe and inaccessible </b> for abled individuals.{" "}
             </P>
             <P>
               {" "}
               3. An accessibility rating of 10 means that the sidewalk is very{" "}
-              <b> safe and accessible </b>for both abled pedestrians and PWPDs.
+              <b> safe and accessible </b>for abled individuals.
             </P>
           </div>
         </div>
